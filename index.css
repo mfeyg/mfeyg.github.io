@@ -52,6 +52,7 @@ img {
   grid-template-areas:
     "a b d"
     "a c d";
+  align-items: center;
 }
 
 figure {
