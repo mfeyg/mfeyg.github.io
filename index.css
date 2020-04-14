@@ -49,21 +49,32 @@ img {
   display: grid;
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: 60% 40%;
+  grid-template-areas:
+    "a b d"
+    "a c d";
 }
 
 figure {
   margin: 5px 20px;
 }
 
-.steel-lamp, .ember {
-  grid-row: span 2;
+.steel-lamp {
+  grid-area: a;
+}
+
+.flare {
+  grid-area: b;
+}
+
+.compulsory-vanity {
+  grid-area: c;
+  margin: 0 20%;
+}
+
+.ember {
+  grid-area: d;
 }
 
 .thesis {
   display: none;
-}
-
-.compulsory-vanity {
-  width: 60%;
-  grid-area: 2 / 2;
 }
