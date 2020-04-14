@@ -1,7 +1,7 @@
 html {
   font-family: "EB Garamond", serif;
   margin: 1em;
-  background-color: #fffffc;
+  background-color: #ffffff;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: #fffffc;
+  background-color: #ffffff;
 }
 
 nav {
