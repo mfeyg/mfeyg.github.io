@@ -35,12 +35,20 @@ img {
 main {
   display: grid;
   grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 60% 40%;
 }
 
 figure {
-  margin: 20px;
+  margin: 5px 20px;
+}
+
+.steel-lamp, .ember {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .thesis {
   width: 60%;
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
