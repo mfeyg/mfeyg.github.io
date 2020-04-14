@@ -1,0 +1,46 @@
+html {
+  font-family: "EB Garamond", serif;
+  margin: 1em;
+  background-color: #fffffc;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fffffc;
+}
+
+nav {
+  font-size: 14pt;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 0.3em;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+figure {
+  margin: 20px;
+}
+
+.thesis {
+  width: 60%;
+}
