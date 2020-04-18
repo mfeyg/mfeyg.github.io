@@ -53,6 +53,21 @@ img {
   max-width: 100%;
 }
 
+main.about {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.about {
+  max-width: 28em;
+}
+
+p.contact {
+  margin-top: 2em;
+}
+
 .portfolio {
   display: grid;
   grid-template-columns: 30% 40% 30%;
