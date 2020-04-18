@@ -56,11 +56,11 @@ img {
 main.about {
   flex-grow: 1;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
 section.about {
+  margin-top: 10%;
   max-width: 28em;
 }
 
