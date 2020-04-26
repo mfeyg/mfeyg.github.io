@@ -87,11 +87,11 @@ figure {
 }
 
 .flare {
-  grid-area: b;
+  grid-area: c;
 }
 
-.compulsory-vanity {
-  grid-area: c;
+.lamp-2 {
+  grid-area: b;
 }
 
 .ember {
