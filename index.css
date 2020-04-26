@@ -98,7 +98,7 @@ figure.ember {
   grid-area: d;
 }
 
-main.lamp-2 {
+main.lamp-2, main.ember {
   display: flex;
   flex-direction: row;
   margin-left: 3em;
@@ -115,7 +115,7 @@ section.description {
   padding-top: 3em;
 }
 
-section.description p {
+section.description div {
   position: fixed;
   max-width: 20em;
 }
