@@ -140,7 +140,7 @@ figure figcaption {
   opacity: 0;
 }
 
-figure:hover {
+figure:hover img {
   filter: brightness(80%);
   transition: 0.5s;
 }
