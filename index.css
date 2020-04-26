@@ -101,6 +101,7 @@ figure.ember {
 main.lamp-2 {
   display: flex;
   flex-direction: row;
+  margin-left: 3em;
 }
 
 section.images {
