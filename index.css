@@ -101,19 +101,18 @@ figure.ember {
 main.lamp-2, main.ember {
   display: flex;
   flex-direction: row;
-  margin-left: 3em;
   justify-content: space-around;
 }
 
 section.images {
-  flex-basis: 60%;
+  flex-basis: 58%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 section.description {
-  flex-basis: 40%;
+  flex-basis: 20em;
   display: flex;
   justify-content: center;
   padding-top: 3em;
@@ -126,8 +125,4 @@ section.description div {
 
 main.ember section.images {
   flex-basis: 38%;
-}
-
-main.ember section.description {
-  flex-basis: 20em;
 }
