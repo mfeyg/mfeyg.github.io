@@ -109,4 +109,10 @@ section.images {
 
 section.description {
   flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+section.description p {
+  max-width: 28em;
 }
