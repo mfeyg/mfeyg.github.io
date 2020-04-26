@@ -116,5 +116,6 @@ section.description {
 }
 
 section.description p {
+  position: fixed;
   max-width: 20em;
 }
