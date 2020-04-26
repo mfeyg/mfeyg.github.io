@@ -102,6 +102,7 @@ main.lamp-2, main.ember {
   display: flex;
   flex-direction: row;
   margin-left: 3em;
+  justify-content: space-around;
 }
 
 section.images {
@@ -123,6 +124,10 @@ section.description div {
   max-width: 20em;
 }
 
-main.ember img {
-  width: 60%;
+main.ember section.images {
+  flex-basis: 35%;
+}
+
+main.ember section.description {
+  flex-basis: 20em;
 }
