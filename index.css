@@ -119,3 +119,7 @@ section.description div {
   position: fixed;
   max-width: 20em;
 }
+
+main.ember img {
+  width: 60%;
+}
