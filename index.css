@@ -41,7 +41,7 @@ a:link, a:visited, a:active {
   color: black;
 }
 
-h1>a:link, a.email {
+h1>a:link, a.email, figure>a:link {
   border-bottom: none;
 }
 
