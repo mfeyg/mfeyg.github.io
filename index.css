@@ -105,11 +105,11 @@ main.lamp-2 {
 }
 
 section.images {
-  flex-basis: 50%;
+  flex-basis: 60%;
 }
 
 section.description {
-  flex-basis: 50%;
+  flex-basis: 40%;
   display: flex;
   justify-content: center;
   padding-top: 3em;
