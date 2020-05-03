@@ -72,6 +72,12 @@ p.contact {
   margin-top: 2em;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .portfolio {
   display: flex;
   flex-direction: row;
