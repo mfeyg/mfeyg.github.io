@@ -127,6 +127,7 @@ main.helix section.images {
 
 figure {
   position: relative;
+  margin: .8em 1em;
 }
 
 figure figcaption {
