@@ -73,37 +73,14 @@ p.contact {
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 60% 40%;
-  grid-template-areas:
-    "a b d"
-    "a c e";
-  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
-figure {
-  margin: 5px 20px;
-}
-
-figure.helix {
-  grid-area: a;
-}
-
-figure.flare {
-  grid-area: c;
-}
-
-figure.ivy {
-  grid-area: b;
-}
-
-figure.thesis-book {
-  grid-area: d;
-}
-
-figure.ember {
-  grid-area: e;
+.portfolio section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main.ivy, main.ember, main.helix {
