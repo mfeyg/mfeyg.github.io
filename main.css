@@ -78,7 +78,7 @@ p.contact {
   grid-template-rows: 60% 40%;
   grid-template-areas:
     "a b d"
-    "a c d";
+    "a c e";
   align-items: center;
 }
 
@@ -98,8 +98,12 @@ figure.ivy {
   grid-area: b;
 }
 
-figure.ember {
+figure.thesis-book {
   grid-area: d;
+}
+
+figure.ember {
+  grid-area: e;
 }
 
 main.ivy, main.ember, main.helix {
