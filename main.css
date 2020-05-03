@@ -86,7 +86,7 @@ figure {
   margin: 5px 20px;
 }
 
-figure.steel-lamp {
+figure.helix {
   grid-area: a;
 }
 
@@ -102,7 +102,7 @@ figure.ember {
   grid-area: d;
 }
 
-main.vine-lamps, main.ember {
+main.vine-lamps, main.ember, main.helix {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
