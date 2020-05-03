@@ -81,7 +81,15 @@ p.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-basis: 33%;
+  flex-basis: 100%;
+}
+
+.portfolio .left {
+  flex-basis: 80%;
+}
+
+.portfolio .right {
+  flex-basis: 60%;
 }
 
 main.ivy, main.ember, main.helix {
