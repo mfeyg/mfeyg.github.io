@@ -154,3 +154,8 @@ figure:hover figcaption {
   opacity: 1;
   transition: 0.5s;
 }
+
+.specification {
+  color: #ccc;
+  size: 9pt;
+}
