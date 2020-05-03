@@ -93,23 +93,23 @@ p.contact {
   align-items: flex-start;
 }
 
-.ivy img {
+.portfolio .ivy img {
   max-height: 41vh;
 }
 
-.flare img {
+.portfolio .flare img {
   max-height: 34vh;
 }
 
-.helix img {
+.portfolio .helix img {
   max-height: 60vh;
 }
 
-.thesis-book img {
+.portfolio .thesis-book img {
   max-height: 30vh;
 }
 
-.ember img {
+.portfolio .ember img {
   max-height: 40vh;
 }
 
