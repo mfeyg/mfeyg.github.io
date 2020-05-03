@@ -94,7 +94,7 @@ figure.flare {
   grid-area: c;
 }
 
-figure.vine-lamps {
+figure.ivy {
   grid-area: b;
 }
 
@@ -102,7 +102,7 @@ figure.ember {
   grid-area: d;
 }
 
-main.vine-lamps, main.ember, main.helix {
+main.ivy, main.ember, main.helix {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
