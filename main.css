@@ -81,15 +81,36 @@ p.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-basis: 100%;
 }
 
 .portfolio .left {
-  flex-basis: 70%;
+  align-items: flex-end;
+}
+.portfolio .middle {
+  align-items: center;
+}
+.portfolio .right {
+  align-items: flex-start;
 }
 
-.portfolio .right {
-  flex-basis: 60%;
+.ivy img {
+  max-height: 45vh;
+}
+
+.flare img {
+  max-height: 30vh;
+}
+
+.helix img {
+  max-height: 60vh;
+}
+
+.thesis-book img {
+  max-height: 40vh;
+}
+
+.ember img {
+  max-height: 30vh;
 }
 
 main.ivy, main.ember, main.helix {
