@@ -156,6 +156,7 @@ figure:hover figcaption {
 }
 
 .specification {
-  color: #ccc;
-  size: 9pt;
+  margin-top: 2em;
+  color: #bbb;
+  font-size: 10pt;
 }
