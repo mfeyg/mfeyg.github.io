@@ -131,6 +131,10 @@ main.ember section.images {
   flex-basis: 38%;
 }
 
+main.helix section.images {
+  flex-basis: 38%;
+}
+
 figure {
   position: relative;
 }
