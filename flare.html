@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js" integrity="sha256-rYPX3dXq8Nh532EvCS2foeyTgmzbcC8u+nCk/rEtKXA=" crossorigin="anonymous"></script>
+    <title>
+      Diana Feygelson — Ember
+    </title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Diana Feygelson</a></h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main class="ember">
+      <div style="height: 70vh; width: 100%" id="flare" />
+      <script>PDFObject.embed("/assets/flare.pdf", "#flare", {pdfOpenParams: {toolbar: 0, scrollbar: 0, navpanes: 0, view: "FitV"}});</script>
+    </main>
+  </body>
+</html>
