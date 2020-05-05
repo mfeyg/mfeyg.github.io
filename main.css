@@ -188,3 +188,7 @@ figure:hover figcaption {
 .specification p {
   margin: 0;
 }
+
+img.ivy-wall {
+  width: 75%;
+}
