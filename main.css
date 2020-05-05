@@ -184,3 +184,7 @@ figure:hover figcaption {
   color: #aaa;
   font-size: 10pt;
 }
+
+.specification p {
+  margin: 0;
+}
