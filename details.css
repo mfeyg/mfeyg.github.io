@@ -31,3 +31,14 @@ section.description div {
 .specification p {
   margin: 0;
 }
+
+@media (max-width: 800px) {
+  main.details {
+    flex-direction: column-reverse;
+  }
+
+  section.description div {
+    position: initial;
+    margin-bottom: 1em;
+  }
+}
