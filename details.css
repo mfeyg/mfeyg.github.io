@@ -1,4 +1,4 @@
-main.ivy, main.ember, main.helix {
+main.details {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
