@@ -58,21 +58,6 @@ img {
   max-width: 100%;
 }
 
-main.about {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-around;
-}
-
-section.about {
-  margin-top: 10%;
-  max-width: 28em;
-}
-
-p.contact {
-  margin-top: 2em;
-}
-
 .home {
   display: flex;
   flex-direction: column;
