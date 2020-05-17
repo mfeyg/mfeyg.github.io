@@ -1,0 +1,46 @@
+main.ivy, main.ember, main.helix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section.images {
+  flex-basis: 58%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.description {
+  flex-basis: 20em;
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+section.description div {
+  position: fixed;
+  max-width: 20em;
+}
+
+main.ember section.images {
+  flex-basis: 38%;
+}
+
+main.helix section.images {
+  flex-basis: 30%;
+}
+
+.specification {
+  margin-top: 2.5em;
+  color: #aaa;
+  font-size: 10pt;
+}
+
+.specification p {
+  margin: 0;
+}
+
+img.ivy-wall {
+  width: 75%;
+}
