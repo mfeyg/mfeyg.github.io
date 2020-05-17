@@ -72,3 +72,15 @@ figure:hover figcaption {
   opacity: 1;
   transition: 0.5s;
 }
+
+@media (max-width: 800px) {
+  .portfolio {
+    flex-direction: column;
+  }
+
+  .portfolio .left,
+  .portfolio .middle,
+  .portfolio .right {
+    align-items: center;
+  }
+}
