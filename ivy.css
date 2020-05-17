@@ -1,3 +1,7 @@
+main.ivy section.images {
+  flex-basis: 58%;
+}
+
 img.ivy-wall {
   width: 75%;
 }
