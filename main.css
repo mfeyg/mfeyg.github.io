@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-  font-size: 14pt;
+  font-size: 1.17em;
 }
 
 a {
@@ -47,14 +47,20 @@ h1>a:link, a.email, figure>a:link {
 }
 
 h1 {
-  font-size: 20pt;
+  font-size: 1.67em;
   margin-left: 1em;
 }
 
 h2 {
-  font-size: 16pt;
+  font-size: 1.34em;
 }
 
 img {
   max-width: 100%;
+}
+
+@media (max-width: 400px) {
+  header {
+    font-size: 0.75em;
+  }
 }
