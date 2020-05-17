@@ -39,6 +39,9 @@ section.description div {
 
   section.description div {
     position: initial;
+  }
+
+  section.description {
     margin-bottom: 1em;
   }
 }
