@@ -48,5 +48,6 @@ section.description div {
   section.description {
     padding-top: 0;
     margin-bottom: 1em;
+    flex-basis: unset;
   }
 }
