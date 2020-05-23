@@ -73,7 +73,7 @@ figure:hover figcaption {
   transition: 0.5s;
 }
 
-@media (max-width: 800px) {
+@media (max-aspect-ratio: 1/1) {
   .portfolio {
     flex-direction: column;
   }
