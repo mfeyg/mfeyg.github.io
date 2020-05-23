@@ -3,5 +3,5 @@ main.ivy section.images {
 }
 
 img.ivy-wall {
-  width: 75%;
+  max-width: 75%;
 }

@@ -10,6 +10,10 @@ section.images {
   align-items: center;
 }
 
+img {
+  max-height: max(80vh, 60vw);
+}
+
 section.description {
   flex-basis: 20em;
   display: flex;
