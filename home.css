@@ -35,8 +35,12 @@
   max-height: 33.5vh;
 }
 
+.portfolio .cube-table img {
+  max-height: 30vh;
+}
+
 .portfolio .helix img {
-  max-height: 60vh;
+  max-height: 40vh;
 }
 
 .portfolio .thesis-book img {
