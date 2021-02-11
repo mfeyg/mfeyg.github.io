@@ -16,7 +16,7 @@
 }
 
 .portfolio .left {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .portfolio .middle {
@@ -24,7 +24,7 @@
 }
 
 .portfolio .right {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .portfolio .ivy img {
@@ -44,6 +44,14 @@
 }
 
 .portfolio .thesis-book img {
+  max-height: 30vh;
+}
+
+.portfolio .nintendo-ereader img {
+  max-height: 40vh;
+}
+
+.portfolio .smartbooks img {
   max-height: 30vh;
 }
 
