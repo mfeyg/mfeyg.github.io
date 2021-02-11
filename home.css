@@ -16,7 +16,7 @@
 }
 
 .portfolio .left {
-  align-items: center;
+  align-items: flex-end;
 }
 
 .portfolio .middle {
@@ -24,7 +24,7 @@
 }
 
 .portfolio .right {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .portfolio .ivy img {
