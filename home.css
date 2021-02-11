@@ -61,6 +61,7 @@
 
 .portfolio .ember {
   align-self: flex-end;
+  margin-top: -2vh;
 }
 
 .portfolio .ember img {
