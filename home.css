@@ -52,17 +52,22 @@
   max-height: 36vh;
 }
 
-.portfolio .smartbooks {
-  margin-right: -26vh;
+@media not all and (max-aspect-ratio: 1/1) {
+  .portfolio .smartbooks {
+    margin-right: -26vh;
+  }
 }
 
 .portfolio .smartbooks img {
   max-height: 25vh;
 }
 
-.portfolio .ember {
-  align-self: flex-end;
-  margin-right: calc(1em + 1vh);
+
+@media not all and (max-aspect-ratio: 1/1) {
+  .portfolio .ember {
+    align-self: flex-end;
+    margin-right: calc(1em + 1vh);
+  }
 }
 
 .portfolio .ember img {
