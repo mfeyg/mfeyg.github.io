@@ -52,7 +52,7 @@
 }
 
 .portfolio .smartbooks {
-  margin-right: -22vh;
+  margin-right: -26vh;
 }
 
 .portfolio .smartbooks img {
@@ -61,6 +61,7 @@
 
 .portfolio .ember {
   align-self: flex-end;
+  margin-right: -2vh;
 }
 
 .portfolio .ember img {
