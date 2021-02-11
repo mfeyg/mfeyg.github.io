@@ -51,8 +51,16 @@
   max-height: 36vh;
 }
 
+.portfolio .smartbooks {
+  margin-right: -17vh;
+}
+
 .portfolio .smartbooks img {
   max-height: 22vh;
+}
+
+.portfolio .ember {
+  align-self: flex-end;
 }
 
 .portfolio .ember img {
