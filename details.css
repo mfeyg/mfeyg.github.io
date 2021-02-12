@@ -4,13 +4,13 @@ main.details {
   justify-content: space-around;
 }
 
-section.images {
+section.images, section.video {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-img, video {
+img {
   max-height: max(80vh, 60vw);
   margin-bottom: 2em;
 }
