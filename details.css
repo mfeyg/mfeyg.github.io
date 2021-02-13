@@ -16,7 +16,7 @@ img {
 }
 
 video {
-  width: max(400px, 48vw);
+  width: max(min(400px, 100vw), 48vw);
   margin-bottom: 2em;
 }
 
