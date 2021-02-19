@@ -1,0 +1,16 @@
+main.tsa-illusions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.description {
+  display: inline;
+  flex-basis: 0;
+  max-width: 28em;
+}
+
+.preview {
+  height: 80vh;
+  width: 120vh;
+}
